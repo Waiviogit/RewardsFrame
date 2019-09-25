@@ -1,0 +1,19 @@
+{
+  "development": {
+    "protocol": "https://",
+    "": "www.waivio.com",
+    "host": "waiviodev.com"
+  },
+  "staging": {
+    "protocol": "https://",
+    "host": "waiviodev.com"
+  },
+  "production": {
+    "protocol": "https://",
+    "host": "www.waivio.com"
+  },
+  "apiPrefix": "/api",
+  "objectsBotApiPrefix": "/objects-bot",
+  "campaignApiPrefix": "/campaigns-api",
+  "campaigns": "/campaigns"
+}
