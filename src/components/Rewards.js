@@ -25,10 +25,9 @@ const Rewards = () => {
                 propositions,
                 proposition =>
                     proposition &&
-                    proposition.required_object &&
-                    <Campaign
+                    proposition.required_object && <Campaign
                         proposition={proposition}
-                        filterKey={'eligible'}
+                        filterKey='eligible'
                         key={`${proposition.required_object.author_permlink}${proposition.required_object.createdAt}`}
                         userName={userName}
                     />
